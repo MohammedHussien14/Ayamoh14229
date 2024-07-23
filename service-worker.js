@@ -3,8 +3,7 @@ const urlsToCache = [
   '/',
   'index.html',
   'styles.css',
-  'script.js',
-  'images/logo.png'
+  'script.js'
 ];
 
 // Install event - cache the necessary assets
