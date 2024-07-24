@@ -156,7 +156,8 @@ loadTrack(currentTrackIndex);
 
 
 //random button 
-const words = ["play minecraft", "watch a movie", "watch anime", "play Genshin Impact", "30min Duolingo", "Just Chat"];
+const words = ["play minecraft", "watch a manga", "watch anime JJK", "watch anime JOJO", "play Genshin Impact", "30min Duolingo", "Just Chat"
+              , "learn something/study"];
 
 document.getElementById('generateButton').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * words.length);
